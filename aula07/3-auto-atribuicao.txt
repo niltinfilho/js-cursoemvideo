@@ -1,0 +1,25 @@
+É quando uma variável atribui um valor a ela mesma.
+A variável perde o valor antigo e assume o valor novo.
+
+var n = 3
+n = n + 4
+
+n = 3 + 4
+resultado: n = 7
+
+------------------
+
+Simplificando:
+
+var n = 3
+n += 4          -> 7
+n -= 5          -> 2
+n *= 4          -> 8
+n /= 2          -> 4
+n **= 2         -> 16
+n %= 5          -> 1 
+
+
+* As contas sempre foram feitas considerando o último
+valor atribuído à variável;
+* Essa forma só vale para AUTO-ATRIBUIÇÕES;

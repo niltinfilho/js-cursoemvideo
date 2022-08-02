@@ -1,0 +1,30 @@
+Equação que usa três valores: 1 teste e 2 possíveis resultados.
+
+teste ? true : false
+
+Exemplo:
+
+var media = 5.5
+
+media >= 7?'Aprovado':'Reprovado'
+-> 'Reprovado'
+
+-----------------
+
+var media = 8
+
+media >= 7?'Aprovado':'Reprovado'
+-> 'Aprovado'
+
+
+*A resposta vai depender do resultado do teste, caso for
+verdadeiro, a secunda lacuna será executada. Caso for falso, a
+terceira lacuna será executada.
+
+-----------------
+
+var idade = 18
+
+var maior = idade>=18?'Maioridade':'Menor de idade'
+
+maior -> 'Maioridade'

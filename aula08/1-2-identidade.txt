@@ -1,0 +1,16 @@
+Serve para comparar valores que são idênticos ou que se parecem.
+
+5 == 5    -> true  (number 5 - number 5) *= =*
+5 == '5'  -> true  (number 5 - string 5) *= =*
+
+*Isso acontece porque esse operador não testa o tipo
+do dado, e sim o seu valor, então 5 é igual a 5.
+
+-----------------
+
+5 === 5    -> true   (number 5 - number 5) *= = =*
+5 === '5'  -> false  (number 5 - string 5) *= = =*
+
+*Isso porque esse operador testa também o tipo
+do dado, e "number" é diferente de "string", não são
+idênticos.

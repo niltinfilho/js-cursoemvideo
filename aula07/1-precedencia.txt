@@ -1,0 +1,13 @@
+MAIOR ->
+
+() -> Dentro dos parênteses 
+** -> Potenciação
+* / % -> Multiplicação, divisão real e resto da divisão inteira
++ - -> Soma e subtração
+
+<- MENOR
+
+*Quando aparece mais de 1 operador por linha quer dizer
+que eles têm a mesma ordem,
+a regra da "esquerda para direita" só funciona quando 
+estiverem em uma equação, quem aparecer primeiro... faz primeiro

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: rgb(68, 125, 199);
+            color: white;
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <div id="msg">Clique em mim</div>
+    <div name="msg">Clique em mim</div>
+    <div class="msg">Clique em mim</div>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+
+    <script>
+        /* Selecionando elementos do DOM:
+
+        por marca   -> getElementsByTagName()[]
+        por ID      -> getElementById()
+        por nome    -> getElementsByName()[]
+        por classe  -> getElementsByClassName()[]
+
+        forma melhor e mais legal
+        por seletor -> querySelector() -> usa as regras CSS (# para ID, . para class)
+        */
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d1 = window.document.getElementById('msg')
+        var d2 = window.document.getElementsByName('msg')[0]
+        var d3 = window.document.querySelector('div.msg')
+        
+        document.write(p1.innerText + '<br>') // Pega apenas o texto
+        document.write(p1.innerHTML + '<br>') //Pega as tags html, a formatação
+
+        d1.style.background = 'green'
+
+        d2.innerText = 'Estou aguardando...'
+
+        d3.innerText = 'Anda logo!'
+    </script>
+</body>
+</html>

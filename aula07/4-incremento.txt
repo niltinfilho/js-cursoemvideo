@@ -1,0 +1,36 @@
+Uma forma ainda mais simplificada de fazer auto-atribuições,
+porém, apenas para contas que aumentam ou diminuem de 1 em 1.
+
+Forma convencional:
+var n = 2
+n = n + 1   -> 3
+
+Forma simplificada:
+var n = 2
+n += 1      -> 3      
+
+Fazendo uso do incremento: 
+var n = 2
+n++         -> 3  
+
+-----------------
+
+Forma convencional:
+var n = 2
+n = n - 1   -> 1
+
+Forma simplificada:
+var n = 2
+n -= 1      -> 1    
+
+Fazendo uso do incremento: 
+var n = 2
+n--         -> 1
+
+
+*Essa forma irá incrementar o valor DEPOIS da variável,
+outra forma de fazer esse cálculo é colocar os operadores
+antes da variável:
+--n
+++n
+Dessa forma a conta será feita antes de exibir a variável

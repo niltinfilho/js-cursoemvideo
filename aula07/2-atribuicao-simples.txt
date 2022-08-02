@@ -1,0 +1,17 @@
+É quando uma variável usa o valor de outra
+para realizar um cálculo.
+
+var a = 3
+var b = a + 2
+
+b = a(3) + 2
+resultado: b = 5
+
+-----------------
+
+var c = 7
+var d = c % a - b
+
+d = c(7) % a(3) - b(5)
+d = 1 - 5
+resultado: d = -4

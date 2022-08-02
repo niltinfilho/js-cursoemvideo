@@ -1,0 +1,46 @@
+São feitos para testar expressões.
+
+Ordem:
+
+MAIOR ->
+
+!  -> negação ("não")
+&& -> conjunção ("e")
+|| -> disjunção ("ou")
+
+<- MENOR
+
+Exemplos:
+
+Eu NÃO quero uma caneta vermelha!
+- Pode ser qualquer caneta, menos da cor vermelha.
+
+Eu quero uma caneta azul E uma vermelha!
+- Tem que ter as duas canetas, uma azul e uma vermelha.
+- Caso seja de outra cor ou apenas 1 eu vou ficar bravo.
+
+Eu quero uma caneta azul OU uma vermelha!
+- Pode ser apenas uma caneta, azul ou vermelha.
+- Se me entregar as 2, ótimo, senão, bom também.
+- Caso não seja nem azul nem vermelha ou nenhuma,
+eu vou ficar bravo.
+
+
+-----------------
+
+!false -> true
+!true  -> false
+
+-----------------
+
+true  && true  -> true
+true  && false -> false
+false && true  -> false
+false && false -> false
+
+-----------------
+
+true  || true  -> true
+true  || false -> true
+false || true  -> true
+false || false -> false

@@ -1,0 +1,19 @@
+São usados para comparar valores, não retornam nenhum valor
+numérico, e sim boleano (true ou false).
+
+5 > 2 -> true   ("5 é maior que 2? Verdade")
+7 < 4 -> false  ("7 é menor que 4? Falso")
+
+8 >= 8 -> true  ("8 é maior ou igual a 8? Verdade")
+9 <= 7 -> false ("9 é menor ou igual a 7? Falso")
+
+5 == 5 -> true  ("5 é igual a 5? Verdade") -> "= =" só que junto
+4 != 4 -> false ("4 é diferente de 4? Falso") -> "! =" só que junto
+
+-----------------
+
+var a = 8
+var b = 15
+
+a > b -> false
+a != b -> true

@@ -1,0 +1,15 @@
+Ordem de precedência de todos os operadores:
+
+MAIOR ->
+
+()
+**
+* / %
++ -
+< > <= >= == === != !==
+!
+&&
+||
+? :
+
+<- MENOR
