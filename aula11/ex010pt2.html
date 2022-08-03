@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        #res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando a sua nacionalidade</h1>
+
+    País nascido: <input type="text" name="txtpais" id="txtpais" placeholder="Digite o nome do seu país">
+    <input type="button" value="Verificar" id="botao">
+
+    <div id="res"></div>
+
+    <script>
+        var botao = document.querySelector('input#botao')
+        botao.addEventListener('click', verificar)
+
+        function verificar() {
+            var pais = String(document.querySelector('#txtpais').value.toUpperCase())
+
+            var res = document.querySelector('div#res')
+
+            res.innerHTML = `Nascido no país ${pais} `
+
+            if(pais == 'BRASIL') {
+                res.innerHTML += `você é Brasileiro!`
+            } else {
+                res.innerHTML += `você é estrangeiro!`
+            }
+        }
+    </script>
+</body>
+</html>
